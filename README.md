@@ -2,7 +2,7 @@
 
 Tugas seleksi magang Backend Developer yang dibangun menggunakan **Laravel 12**. Sistem ini memungkinkan pengguna untuk mendaftar, login, melihat daftar event sukarelawan, dan mendaftar (join) ke event tersebut.
 
-## 🛠 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 - **Framework:** Laravel 12.x
 - **Database:** MySQL (Laragon)
 - **Authentication:** Laravel Sanctum
@@ -47,7 +47,7 @@ Tugas seleksi magang Backend Developer yang dibangun menggunakan **Laravel 12**.
 
 ---
 
-## 🏃 Cara Menjalankan Project
+## Cara Menjalankan Project
 
 Jalankan server lokal Laravel:
 ```bash
@@ -57,7 +57,7 @@ API sekarang dapat diakses di `http://127.0.0.1:8000/api`.
 
 ---
 
-## 📍 Daftar Endpoint API
+## Daftar Endpoint API
 
 **Header Wajib:**  
 `Accept: application/json`  
@@ -75,7 +75,7 @@ API sekarang dapat diakses di `http://127.0.0.1:8000/api`.
 
 ---
 
-## 📝 Catatan Asumsi/Desain
+## Catatan Asumsi/Desain
 
 1. **Struktur Tabel Singular:** Mengikuti instruksi, tabel database dinamai `user`, `event`, dan `event_user` (bukan jamak default Laravel).
 2. **Relasi Data:** Menggunakan relasi `belongsToMany` di kedua model (`User` & `Event`) untuk menangani hubungan *Many-to-Many*.
@@ -84,7 +84,7 @@ API sekarang dapat diakses di `http://127.0.0.1:8000/api`.
 
 ---
 
-## 🧠 Pertanyaan Wajib
+## Jawaban Pertanyaan Wajib
 
 ### 1. Bagian tersulit apa dari assignment ini?
 Salah satu tantangan terbesar adalah melewati penyesuaian (override) standar konvensi Laravel, yang secara default menggunakan nama tabel jamak (*plural*). Karena instruksi meminta nama tabel tunggal (*singular*), saya harus memastikan bahwa setiap migrasi, model, dan definisi kunci luar didefinisikan secara manual agar hubungan antar tabel tetap berjalan dengan benar tanpa mengandalkan automasi Laravel.
