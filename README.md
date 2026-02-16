@@ -14,7 +14,7 @@ Tugas seleksi magang Backend Developer yang dibangun menggunakan **Laravel 12**.
 
 1. **Clone Repository**
    ```bash
-   git clone <link-repository-anda>
+   git clone https://github.com/axelba1337/volunteer-api
    cd volunteer-api
    ```
 
